@@ -1,0 +1,53 @@
+
+html, body {
+  width: 100%;
+  height: 100%;
+
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+#canvas-wall {
+  width: 70%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#canvas {
+  border: 0.5px solid whitesmoke;
+  box-shadow: 3px 3px 3px whitesmoke;
+}
+
+#plaque-wall {
+  width: 30%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#plaque {
+  width: 60%;
+  height: 40%;
+
+  border: 1px solid gray;
+  resize: none;
+
+  padding: 10px;
+
+  font-family: Verdana, Tahoma, Geneva, sans-serif;
+  font-size: 15px;
+}
+
+#plaque:focus {
+  outline: none;
+}
